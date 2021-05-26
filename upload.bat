@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add movieimage "
+git commit -m "add nav footer "
 git push -u origin main
