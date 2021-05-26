@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add nav footer "
+git commit -m "update "
 git push -u origin main

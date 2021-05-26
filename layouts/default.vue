@@ -3,6 +3,10 @@
     <nav class="breadcrumb">
       <ul>
         <li><nuxt-link to="/"><i class="fas fa-home"></i>홈으로</nuxt-link></li>
+        <li><nuxt-link to="/">박스오피스</nuxt-link></li>
+        <li><nuxt-link to="/">역대인기영화(해외)</nuxt-link></li>
+        <li><nuxt-link to="/">역대인기영화(국내)</nuxt-link></li>
+
       </ul>
     </nav>
     <nuxt/> 
