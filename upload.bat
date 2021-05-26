@@ -1,3 +1,3 @@
 git add --all
-git commit -m "upgrade"
+git commit -m "add Bulma CSS"
 git push -u origin main
