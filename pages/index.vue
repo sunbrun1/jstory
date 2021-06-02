@@ -114,6 +114,46 @@
         </article>
       </div>
     </div>
+    <div class="columns">
+      <div class="column">
+      <article class="notification">
+        <table class="table  is-striped  is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th> 영화이름 </th>
+              <th> 평점 </th>
+              <th> 예매율 </th>
+              <th> 개봉일 </th>
+            </tr>
+            <tr>
+              <td> 클루엘라 </td>
+              <td> 8.7 </td>
+              <td> 27.3% </td>
+              <td> 21.05.26 </td>
+            </tr>
+            <tr>
+              <td> 분노의질주:더 얼티메이트 </td>
+              <td> 7.4 </td>
+              <td> 17.0% </td>
+              <td> 21.05.19 </td>
+            </tr>
+            <tr>
+              <td> 컨저링 </td>
+              <td> 7.4 </td>
+              <td> 17.0% </td>
+              <td> 21.05.19 </td>
+            </tr>
+            <tr>
+              <td> 클루엘라 </td>
+              <td> 7.4 </td>
+              <td> 17.0% </td>
+              <td> 21.05.19 </td>
+            </tr>
+          </thead>
+        </table>
+      </article>
+      </div>
+    </div>
   </div>
 </template>
 
