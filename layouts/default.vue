@@ -6,6 +6,7 @@
         <li><nuxt-link to="/">박스오피스</nuxt-link></li>
         <li><nuxt-link to="/">역대인기영화(해외)</nuxt-link></li>
         <nuxt-link to="/bestMovies"> 역대 인기영화(국내) </nuxt-link>  
+        <nuxt-link to="/movies"> 무비 </nuxt-link>  
       </ul>
     </nav>
     <nuxt/> 
