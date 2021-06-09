@@ -16,7 +16,7 @@
                         <th>상영시간</th>
 
                     </thead>
-                    <tbody>
+                    <tbody> 
                         <template v-for="pos in moviesByDownload.length">
                             <tr :key="pos">
                                 <td>{{pos}}</td>
@@ -33,7 +33,6 @@
                     <a class="tag is-wraning" href="https://yts.mx/api/v2/list_movies.json?sort_by=download_count">api</a><br>
                 </div>
             </div>
-            <div class="column"></div>
         </section>
 
     </div>
