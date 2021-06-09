@@ -7,7 +7,7 @@
         </section>
         <hr>
         <section class="columns">
-            <div class="column"></div>
+            <div class="column">
                 <table class="table">
                     <thead>
                         <th>순위</th>
@@ -27,6 +27,12 @@
                         </template>
                     </tbody>
                 </table>
+                <div class="content">
+                    <p class="tag is-danger">출처</p>
+                    <a href="https://yts.mx/api#list_movies">홈페이지</a> 
+                    <a class="tag is-wraning" href="https://yts.mx/api/v2/list_movies.json?sort_by=download_count">api</a><br>
+                </div>
+            </div>
             <div class="column"></div>
         </section>
 
