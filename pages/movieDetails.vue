@@ -1,6 +1,11 @@
 <template>
   <div>
-
+    <!-- Popular -->
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <p class="title">Movie Info</p>
+        </div>
+    </section>
     <div class="columns">
         <div class="column is-3" >
             <img :src="`https://image.tmdb.org/t/p/w500` + posterPath" >
@@ -25,6 +30,14 @@
             <p>
                 러닝타임 <span>{{runtime}}분</span>
             </p>
+        </div>
+    </div>
+    <h2 class="overview">
+        개요
+    </h2>
+    <div class="columns">
+        <div class="column" >
+            {{overview}}
         </div>
     </div>
   </div>
@@ -60,10 +73,9 @@
 </script>
 
 <style scoped>
-  .hero{
-      width: 1180px;
-      margin: auto;
-  }
+    .hero{
+        text-align: center;
+    }
   .columns{
       width: 1180px;
       margin: auto;
@@ -86,5 +98,11 @@
   }
   .fa-star{
       color: red;
+  }
+  .overview{
+      width: 1180px;
+      margin: auto;
+      padding: 12px;
+      font-size: 30px;
   }
 </style>
