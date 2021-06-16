@@ -1,14 +1,13 @@
 <template>
   <div>
-    <nav class="breadcrumb">
-      <ul>
-        <li><nuxt-link to="/"><i class="fas fa-home"></i>홈으로</nuxt-link></li>
-        <li><nuxt-link to="/">박스오피스</nuxt-link></li>
-        <li><nuxt-link to="/">역대인기영화(해외)</nuxt-link></li>
-        <nuxt-link to="/bestMovies"> 역대 인기영화(국내) </nuxt-link>  
-        <nuxt-link to="/movies"> 다운로드별 순위 </nuxt-link>  
-      </ul>
-    </nav>
+    <div class="tabs">
+            <ul>
+                <li class="is-active"><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp;홈</nuxt-link></li>
+                <li><nuxt-link to="/bestMovies">&nbsp;랭킹</nuxt-link></li>
+                <li><nuxt-link to="/movies">&nbsp;TV 프로그램</nuxt-link></li>
+                <li><a>Documents</a></li>
+            </ul>
+        </div>
     <nuxt/> 
     <footer class="footer">
       <div class="content has-text-centered">
