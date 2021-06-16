@@ -128,6 +128,7 @@
           const popularMovies = await axios.get('https://api.themoviedb.org/3/movie/popular?api_key=f19d3890180da322a305b1e1a80791d2');
           const nowPlayingMovies = await axios.get('https://api.themoviedb.org/3/movie/now_playing?api_key=f19d3890180da322a305b1e1a80791d2');
           const upComingMovies = await axios.get('https://api.themoviedb.org/3/movie/upcoming?api_key=f19d3890180da322a305b1e1a80791d2');
+          console.log(popularMovies.data)
 
           return {
                 popularMovies : popularMovies.data.results.slice(9,19),
