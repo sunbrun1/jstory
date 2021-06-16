@@ -3,7 +3,7 @@
     <div class="tabs">
             <ul>
                 <li class="is-active"><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp;홈</nuxt-link></li>
-                <li><nuxt-link to="/bestMovies">&nbsp;랭킹</nuxt-link></li>
+                <li><nuxt-link to="/movieRank">&nbsp;랭킹</nuxt-link></li>
                 <li><nuxt-link to="/movies">&nbsp;TV 프로그램</nuxt-link></li>
                 <li><a>Documents</a></li>
             </ul>

@@ -49,9 +49,8 @@
     export default{
       async asyncData({params}){
           const movieId = params.id;
-          console.log(movieId);
           const movieDetailsInfo = await axios.get(`https://api.themoviedb.org/3/movie/${movieId}?api_key=f19d3890180da322a305b1e1a80791d2`);
-          console.log(movieDetailsInfo.data)
+          console.log(movieDetailsInfo)
 
           return {
                 title : movieDetailsInfo.data.title,
