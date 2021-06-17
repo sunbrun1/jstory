@@ -21,6 +21,13 @@
     "_name": "_1844cc05"
   },
   {
+    "name": "movieNews",
+    "path": "/movieNews",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieNews.vue",
+    "chunkName": "pages/movieNews",
+    "_name": "_61a26ba0"
+  },
+  {
     "name": "movieRank",
     "path": "/movieRank",
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieRank.vue",
@@ -33,6 +40,13 @@
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movies.vue",
     "chunkName": "pages/movies",
     "_name": "_e402f3d4"
+  },
+  {
+    "name": "tvProgram",
+    "path": "/tvProgram",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\tvProgram.vue",
+    "chunkName": "pages/tvProgram",
+    "_name": "_13311f9f"
   },
   {
     "name": "index",

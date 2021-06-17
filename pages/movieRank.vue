@@ -30,7 +30,7 @@
                     </thead>
                     <tbody>
                         <template v-for="(item,index) in movieRankInfo">
-                            <tr :key="index">
+                            <tr :key="index" @click="movieDetailsPage(item.id)">
                                 <td>
                                     {{index+1}}
                                 </td>
@@ -49,7 +49,7 @@
                                 <td>
                                     {{item.vote_count}}
                                 </td>
-                             </tr>
+                            </tr>
                         </template>
 
                     </tbody>
@@ -76,7 +76,7 @@
     export default{
         async asyncData(){
                 const movieRankInfo = await axios.get("https://api.themoviedb.org/3/movie/top_rated?api_key=f19d3890180da322a305b1e1a80791d2");
-                console.log(movieRankInfo.data.results)
+  
             return {
                 movieRankInfo : movieRankInfo.data.results,
                 option : "평점 내림차순"
@@ -86,7 +86,6 @@
             movieDetailsPage(movieId){
                 this.$router.push({ path: `/movieDetails/${movieId}`})
             },
-            // 내림차순
             orderBy(){
                 if(this.option == "평점 내림차순"){
                     this.movieRankInfo.sort((a, b) => {
@@ -125,7 +124,12 @@
 
 
             },
-
         }
     }
 </script>
+
+<style scoped>
+tr{
+    cursor: pointer;
+}
+</style>

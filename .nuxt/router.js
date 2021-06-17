@@ -7,8 +7,10 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _3ed8159a = () => interopDefault(import('..\\pages\\bestMovies.vue' /* webpackChunkName: "pages/bestMovies" */))
 const _21999261 = () => interopDefault(import('..\\pages\\movieChart.vue' /* webpackChunkName: "pages/movieChart" */))
 const _1844cc05 = () => interopDefault(import('..\\pages\\movieDetails.vue' /* webpackChunkName: "pages/movieDetails" */))
+const _61a26ba0 = () => interopDefault(import('..\\pages\\movieNews.vue' /* webpackChunkName: "pages/movieNews" */))
 const _1dc1d879 = () => interopDefault(import('..\\pages\\movieRank.vue' /* webpackChunkName: "pages/movieRank" */))
 const _e402f3d4 = () => interopDefault(import('..\\pages\\movies.vue' /* webpackChunkName: "pages/movies" */))
+const _13311f9f = () => interopDefault(import('..\\pages\\tvProgram.vue' /* webpackChunkName: "pages/tvProgram" */))
 const _0128794f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -35,6 +37,10 @@ export const routerOptions = {
     component: _1844cc05,
     name: "movieDetails"
   }, {
+    path: "/movieNews",
+    component: _61a26ba0,
+    name: "movieNews"
+  }, {
     path: "/movieRank",
     component: _1dc1d879,
     name: "movieRank"
@@ -42,6 +48,10 @@ export const routerOptions = {
     path: "/movies",
     component: _e402f3d4,
     name: "movies"
+  }, {
+    path: "/tvProgram",
+    component: _13311f9f,
+    name: "tvProgram"
   }, {
     path: "/",
     component: _0128794f,

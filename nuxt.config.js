@@ -1,4 +1,5 @@
 module.exports = {
+
   /*
   ** Headers of the page
   */
@@ -19,6 +20,7 @@ module.exports = {
               src:"https://use.fontawesome.com/releases/v5.15.3/js/all.js"
             }]
   },
+
   /*
   ** Customize the progress bar color
   */
