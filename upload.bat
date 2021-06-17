@@ -1,4 +1,4 @@
 chcp 65001
 git add --all
-git commit -m " update nuxt.config.js Set target: static"
+git commit -m " add _id"
 git push -u origin main

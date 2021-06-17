@@ -1,26 +1,5 @@
 [
   {
-    "name": "bestMovies",
-    "path": "/bestMovies",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\bestMovies.vue",
-    "chunkName": "pages/bestMovies",
-    "_name": "_3ed8159a"
-  },
-  {
-    "name": "movieChart",
-    "path": "/movieChart",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieChart.vue",
-    "chunkName": "pages/movieChart",
-    "_name": "_21999261"
-  },
-  {
-    "name": "movieDetails",
-    "path": "/movieDetails",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieDetails.vue",
-    "chunkName": "pages/movieDetails",
-    "_name": "_1844cc05"
-  },
-  {
     "name": "movieNews",
     "path": "/movieNews",
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieNews.vue",
@@ -35,13 +14,6 @@
     "_name": "_1dc1d879"
   },
   {
-    "name": "movies",
-    "path": "/movies",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movies.vue",
-    "chunkName": "pages/movies",
-    "_name": "_e402f3d4"
-  },
-  {
     "name": "tvProgram",
     "path": "/tvProgram",
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\tvProgram.vue",
@@ -54,5 +26,12 @@
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
     "_name": "_0128794f"
+  },
+  {
+    "name": "id",
+    "path": "/:id",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\_id.vue",
+    "chunkName": "pages/_id",
+    "_name": "_7bd28377"
   }
 ]
