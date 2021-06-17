@@ -24,7 +24,7 @@
         </div>
 
         <section class="columns is-multiline">
-            <div class="column is-one-fifth" v-for="(item, index) in TVInfo" :key="index" @click="movieDetailsPage(item.id)">
+            <div class="column is-one-fifth" v-for="(item, index) in TVInfo" :key="index" @click="tvProgramPage(item.id)">
                 <img :src="`https://image.tmdb.org/t/p/w500` + item.poster_path"/>
                 <div class="movie_title">
                     {{item.original_name}}
@@ -54,8 +54,8 @@
             };
         },
         methods:{
-            movieDetailsPage(movieId){
-                this.$router.push({ path: `/movieDetails/${movieId}`})
+            tvProgramPage(tvProgramId){
+                this.$router.push({ path: `/tv/${tvProgramId}`})
             },
             // 내림차순
             orderBy(){
@@ -118,6 +118,9 @@
         width: 1180px;
         margin: auto;
         display: flex;
+    }
+    .column{
+        cursor: pointer;
     }
     .orderby{
         height: 1000px;

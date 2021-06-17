@@ -72,7 +72,7 @@
       },
       methods:{
           movieDetailsPage(movieId){
-          this.$router.push({ path: `/${movieId}`})
+          this.$router.push({ path: `/movie/${movieId}`})
         }
       }
     }

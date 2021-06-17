@@ -11,7 +11,7 @@
             <img :src="`https://image.tmdb.org/t/p/w500` + posterPath" >
         </div>
         <div class="title">
-            <h2>{{title}}</h2>
+            <h2>{{name}}</h2>
             <p>
                 개봉 <span>{{releaseDate}}</span>
             </p>
@@ -22,13 +22,19 @@
                 국가 <span>{{productionCountries}}</span>
             </p>
             <p>
-                러닝타임 <span>{{runtime}}분</span>
-            </p>
-            <p>
                 평점 <span> <i class="fas fa-star"> </i>{{voteAverage}}</span>
             </p>
             <p>
-                러닝타임 <span>{{runtime}}분</span>
+                창작자 <span v-for="(item, index) in createdBy" :key="index"> {{item.name}}  </span>
+            </p>
+            <p>
+                러닝타임 <span> {{episodeRunTime}}분</span>
+            </p>
+            <p>
+                시즌 <span> {{seasonNumber}}</span>
+            </p>
+            <p>
+                홈페이지 <span> <a :href="homepage">{{homepage}}</a></span>
             </p>
         </div>
     </div>
@@ -48,26 +54,25 @@
 
     export default{
       async asyncData({params}){
-          const movieId = params.id;
-          const movieDetailsInfo = await axios.get(`https://api.themoviedb.org/3/movie/${movieId}?api_key=f19d3890180da322a305b1e1a80791d2`);
-          console.log(movieDetailsInfo)
+          const tvProgramId = params.id;
+          console.log(tvProgramId)
+          const tvProgramInfo = await axios.get(`https://api.themoviedb.org/3/tv/${tvProgramId}?api_key=f19d3890180da322a305b1e1a80791d2`);
+          console.log(tvProgramInfo.data)
 
           return {
-                title : movieDetailsInfo.data.title,
-                overview : movieDetailsInfo.data.overview,
-                posterPath : movieDetailsInfo.data.poster_path,
-                releaseDate : movieDetailsInfo.data.release_date, // 개봉일
-                runtime : movieDetailsInfo.data.runtime, // 런타임
-                genres : movieDetailsInfo.data.genres, // 장르
-                productionCountries : movieDetailsInfo.data.production_countries[0].name, // 국가
-                voteAverage : movieDetailsInfo.data.vote_average, // 평점
+                name : tvProgramInfo.data.name,
+                overview : tvProgramInfo.data.overview,
+                posterPath : tvProgramInfo.data.poster_path,
+                releaseDate : tvProgramInfo.data.last_air_date, // 개봉일
+                genres : tvProgramInfo.data.genres, // 장르
+                productionCountries : tvProgramInfo.data.production_countries[0].name, // 국가
+                voteAverage : tvProgramInfo.data.vote_average, // 평점
+                createdBy :  tvProgramInfo.data.created_by,// 창작자
+                episodeRunTime :  tvProgramInfo.data.episode_run_time[0], //런타임
+                homepage : tvProgramInfo.data.homepage,
+                seasonNumber : tvProgramInfo.data.last_episode_to_air.season_number,
           };
       },
-      methods:{
-          movieDetailsPage(movieId){
-          this.$router.push({ path: `/movieDetails/${movieId}`})
-        }
-      }
     }
 </script>
 

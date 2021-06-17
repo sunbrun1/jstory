@@ -84,7 +84,7 @@
         },
         methods:{
             movieDetailsPage(movieId){
-                this.$router.push({ path: `/movieDetails/${movieId}`})
+                this.$router.push({ path: `/movie/${movieId}`})
             },
             orderBy(){
                 if(this.option == "평점 내림차순"){

@@ -9,7 +9,7 @@
         </section>
 
         <section class="columns is-multiline">
-            <div class="column is-half" v-for="(item, index) in movieNews" :key="index" @click="movieDetailsPage(item.id)">
+            <div class="column is-half" v-for="(item, index) in movieNews" :key="index">
                 <div class="content">
                     <span>네이버뉴스</span> <span>{{newsTime[index]}}</span>
                     <p class="news_title">
@@ -43,9 +43,6 @@
             }
         },
         methods:{
-            movieDetailsPage(movieId){
-                this.$router.push({ path: `/movieDetails/${movieId}`})
-            },
             /* 시간 계산 */
             timeForToday(value){
                 const todayTime = new Date();

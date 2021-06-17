@@ -4,11 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _61a26ba0 = () => interopDefault(import('..\\pages\\movieNews.vue' /* webpackChunkName: "pages/movieNews" */))
-const _1dc1d879 = () => interopDefault(import('..\\pages\\movieRank.vue' /* webpackChunkName: "pages/movieRank" */))
-const _13311f9f = () => interopDefault(import('..\\pages\\tvProgram.vue' /* webpackChunkName: "pages/tvProgram" */))
+const _c61b3440 = () => interopDefault(import('..\\pages\\movie\\News.vue' /* webpackChunkName: "pages/movie/News" */))
+const _5911d2b9 = () => interopDefault(import('..\\pages\\movie\\Rank.vue' /* webpackChunkName: "pages/movie/Rank" */))
+const _191f475f = () => interopDefault(import('..\\pages\\tv\\Program.vue' /* webpackChunkName: "pages/tv/Program" */))
+const _43b0c2dd = () => interopDefault(import('..\\pages\\movie\\_id.vue' /* webpackChunkName: "pages/movie/_id" */))
+const _51151135 = () => interopDefault(import('..\\pages\\tv\\_id.vue' /* webpackChunkName: "pages/tv/_id" */))
 const _0128794f = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
-const _7bd28377 = () => interopDefault(import('..\\pages\\_id.vue' /* webpackChunkName: "pages/_id" */))
 
 const emptyFn = () => {}
 
@@ -22,25 +23,29 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/movieNews",
-    component: _61a26ba0,
-    name: "movieNews"
+    path: "/movie/News",
+    component: _c61b3440,
+    name: "movie-News"
   }, {
-    path: "/movieRank",
-    component: _1dc1d879,
-    name: "movieRank"
+    path: "/movie/Rank",
+    component: _5911d2b9,
+    name: "movie-Rank"
   }, {
-    path: "/tvProgram",
-    component: _13311f9f,
-    name: "tvProgram"
+    path: "/tv/Program",
+    component: _191f475f,
+    name: "tv-Program"
+  }, {
+    path: "/movie/:id?",
+    component: _43b0c2dd,
+    name: "movie-id"
+  }, {
+    path: "/tv/:id?",
+    component: _51151135,
+    name: "tv-id"
   }, {
     path: "/",
     component: _0128794f,
     name: "index"
-  }, {
-    path: "/:id",
-    component: _7bd28377,
-    name: "id"
   }],
 
   fallback: false

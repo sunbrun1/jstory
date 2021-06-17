@@ -1,37 +1,38 @@
 [
   {
-    "name": "movieNews",
-    "path": "/movieNews",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieNews.vue",
-    "chunkName": "pages/movieNews",
-    "_name": "_61a26ba0"
+    "name": "movie-News",
+    "path": "/movie/News",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movie\\\\News.vue",
+    "chunkName": "pages/movie/News"
   },
   {
-    "name": "movieRank",
-    "path": "/movieRank",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieRank.vue",
-    "chunkName": "pages/movieRank",
-    "_name": "_1dc1d879"
+    "name": "movie-Rank",
+    "path": "/movie/Rank",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movie\\\\Rank.vue",
+    "chunkName": "pages/movie/Rank"
   },
   {
-    "name": "tvProgram",
-    "path": "/tvProgram",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\tvProgram.vue",
-    "chunkName": "pages/tvProgram",
-    "_name": "_13311f9f"
+    "name": "tv-Program",
+    "path": "/tv/Program",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\tv\\\\Program.vue",
+    "chunkName": "pages/tv/Program"
+  },
+  {
+    "name": "movie-id",
+    "path": "/movie/:id?",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movie\\\\_id.vue",
+    "chunkName": "pages/movie/_id"
+  },
+  {
+    "name": "tv-id",
+    "path": "/tv/:id?",
+    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\tv\\\\_id.vue",
+    "chunkName": "pages/tv/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0128794f"
-  },
-  {
-    "name": "id",
-    "path": "/:id",
-    "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\_id.vue",
-    "chunkName": "pages/_id",
-    "_name": "_7bd28377"
+    "chunkName": "pages/index"
   }
 ]
