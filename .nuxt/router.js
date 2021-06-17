@@ -33,7 +33,7 @@ export const routerOptions = {
     component: _21999261,
     name: "movieChart"
   }, {
-    path: "/movieDetails/:id",
+    path: "/movieDetails",
     component: _1844cc05,
     name: "movieDetails"
   }, {
