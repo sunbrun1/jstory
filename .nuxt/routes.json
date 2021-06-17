@@ -15,7 +15,7 @@
   },
   {
     "name": "movieDetails",
-    "path": "/movieDetails",
+    "path": "/movieDetails/:id",
     "component": "C:\\\\Users\\\\82102\\\\Desktop\\\\프로그래밍\\\\웹프로그래밍\\\\프로젝트\\\\cloud\\\\MYNUXT\\\\jstory\\\\pages\\\\movieDetails.vue",
     "chunkName": "pages/movieDetails",
     "_name": "_1844cc05"
